@@ -1,0 +1,221 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+
+li {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  overflow: hidden;
+}
+
+.start {
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  height: 100vh;
+  border-bottom: 5px solid gray;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+}
+
+.sel {
+  width: 150px;
+  padding: 5px;
+  border-radius: 7px;
+  border: 2px solid gray solid white;
+  background-color: inherit;
+  color: white;
+}
+
+.sign {
+  width: 80px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(243, 7, 7);
+  border-radius: 7px;
+}
+.sign:hover {
+  background-color: rgba(194, 32, 32, 0.884);
+}
+
+.film {
+  font-size: 50px;
+}
+
+.go {
+  width: 200px;
+  height: 60px;
+  background-color: rgb(243, 7, 7);
+  border-radius: 5px;
+}
+.go > a {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.inp {
+  width: 350px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.second {
+  padding: 20px;
+  background-color: black;
+  border-bottom: 5px solid gray;
+}
+
+.video {
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+.vid {
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+
+.vid1 {
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+
+.v {
+  width: 350px;
+  height: 210px;
+  position: absolute;
+  top: 90px;
+  left: 70px;
+}
+
+.v2 {
+  width: 250px;
+  height: 210px;
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.tv {
+  z-index: 1;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tv1 {
+  z-index: 1;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img {
+  width: 500px;
+  position: relative;
+  height: 400px;
+}
+
+.phone {
+  width: 500px;
+  height: 360px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: absolute;
+  bottom: 60px;
+  left: 100px;
+  width: 300px;
+  height: 80px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: black;
+}
+.box > img {
+  width: 40px;
+  height: 60px;
+}
+.box > .load {
+  width: 50px;
+  height: 50px;
+}
+
+.stranger {
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.load {
+  color: rgb(0, 102, 255);
+}
+
+.title2 {
+  padding: 5px;
+  background-color: rgb(49, 47, 47);
+  font-weight: normal;
+  transition: 0.4s;
+  overflow: hidden;
+  color: white;
+}
+
+.title {
+  background-color: rgb(49, 46, 46);
+  position: relative;
+  color: white;
+}
+
+.bord {
+  color: white;
+  padding: 15px;
+  background-color: rgb(49, 47, 47);
+}
+
+.plus {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.third {
+  background-color: black;
+}
+
+.footer1 {
+  color: whitesmoke;
+}
+.footer1 > a {
+  text-decoration: underline;
+}/*# sourceMappingURL=global.css.map */
